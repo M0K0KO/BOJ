@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\BarkingDog\0x05">
       <UniqueIdentifier>{61ddf4cd-6743-4c92-b75e-2712c1ab6f7b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BarkingDog\0x06">
+      <UniqueIdentifier>{8181b27c-fe1b-4f0d-8411-977be4ba63ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1002.cpp">
@@ -39,7 +42,7 @@
     <ClCompile Include="1764.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1874.cpp">
+    <ClCompile Include="18110.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1966.cpp">
@@ -186,8 +189,26 @@
     <ClCompile Include="10773.cpp">
       <Filter>소스 파일\BarkingDog\0x05</Filter>
     </ClCompile>
-    <ClCompile Include="1874_stack.cpp">
+    <ClCompile Include="1874.cpp">
       <Filter>소스 파일\BarkingDog\0x05</Filter>
+    </ClCompile>
+    <ClCompile Include="2493.cpp">
+      <Filter>소스 파일\BarkingDog\0x05</Filter>
+    </ClCompile>
+    <ClCompile Include="6193.cpp">
+      <Filter>소스 파일\BarkingDog\0x05</Filter>
+    </ClCompile>
+    <ClCompile Include="17298.cpp">
+      <Filter>소스 파일\BarkingDog\0x05</Filter>
+    </ClCompile>
+    <ClCompile Include="3015.cpp">
+      <Filter>소스 파일\BarkingDog\0x05</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_test.cpp">
+      <Filter>소스 파일\BarkingDog\0x06</Filter>
+    </ClCompile>
+    <ClCompile Include="10845.cpp">
+      <Filter>소스 파일\BarkingDog\0x06</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

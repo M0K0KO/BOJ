@@ -1,31 +1,40 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
+#include <bits/stdc++.h>
 
-int main() {
-	int n;
-	int ex;
+int n;
+std::stack<int> st;
+std::vector<std::string> v;
+
+void Input() {
 	std::cin >> n;
+}
 
-	std::vector<int> v;
+void Solve() {
+	int num = 1;
+	while (n--) {
+		int target;
+		std::cin >> target;
 
-	for (int i = 0; i < n; i++) {
-		int temp;
-		std::cin >> temp;
-		v.push_back(temp);
-	}
-
-	if (n == 0) std::cout << 0;
-	else {
-		int sum = 0;
-
-		ex = std::floor((double(n) / 10 * 1.5) + 0.5);
-		std::sort(v.begin(), v.end());
-		for (int j = ex; j <= n - ex - 1; j++) {
-			sum += v[j];
+		while (num <= target) {
+			st.push(num++);
+			v.push_back("+");
 		}
 
-		std::cout << std::floor((double(sum) / (n - 2 * ex)) + 0.5);
+		if (st.top() != target) {
+			std::cout << "NO\n";
+			return;
+		}
+		st.pop();
+		v.push_back("-");
 	}
+
+	for (auto elem : v) std::cout << elem << "\n";
+}
+
+
+int main() {
+	std::cin.tie(0);
+	std::ios::sync_with_stdio(0);
+
+	Input();
+	Solve();
 }
