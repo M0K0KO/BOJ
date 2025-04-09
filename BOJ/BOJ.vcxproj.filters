@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\BarkingDog\0x06">
       <UniqueIdentifier>{8181b27c-fe1b-4f0d-8411-977be4ba63ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BarkingDog\0x07">
+      <UniqueIdentifier>{cc04143d-1e94-4cf3-a4c9-4aeaf4b9f036}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1002.cpp">
@@ -210,5 +213,25 @@
     <ClCompile Include="10845.cpp">
       <Filter>소스 파일\BarkingDog\0x06</Filter>
     </ClCompile>
+    <ClCompile Include="18258.cpp">
+      <Filter>소스 파일\BarkingDog\0x06</Filter>
+    </ClCompile>
+    <ClCompile Include="2164.cpp">
+      <Filter>소스 파일\BarkingDog\0x06</Filter>
+    </ClCompile>
+    <ClCompile Include="deque_test.cpp">
+      <Filter>소스 파일\BarkingDog\0x07</Filter>
+    </ClCompile>
+    <ClCompile Include="10866.cpp">
+      <Filter>소스 파일\BarkingDog\0x07</Filter>
+    </ClCompile>
+    <ClCompile Include="1021.cpp">
+      <Filter>소스 파일\BarkingDog\0x07</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
