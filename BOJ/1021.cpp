@@ -30,8 +30,6 @@ void Solve() {
 			cnt++;
 		}
 
-		std::cout << dq.front() << "<---\n";
-
 		if (cnt > (dq.size() / 2)) {
 			cnt = dq.size() - cnt;
 			sum += cnt;
