@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\BarkingDog\0x08">
       <UniqueIdentifier>{7d1b58e3-0adc-4238-81e5-ef2f721984d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BarkingDog\0x09">
+      <UniqueIdentifier>{d613a10e-56c0-406d-a6c9-cbc3daf918a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1002.cpp">
@@ -242,6 +245,15 @@
     </ClCompile>
     <ClCompile Include="2504.cpp">
       <Filter>소스 파일\BarkingDog\0x08</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
+    </ClCompile>
+    <ClCompile Include="1926.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
+    </ClCompile>
+    <ClCompile Include="2178.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

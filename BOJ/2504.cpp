@@ -8,29 +8,56 @@ void Input() {
 }
 
 int sum;
-int temp = 1;
+int multiplier = 1;
+bool isPopped = false;
+bool flag = false;
 
 void Solve() {
-	for (int i = 0; i < str.size() - 1; i++) {
+	for (int i = 0; i < str.size(); i++) {
 		if (str[i] == '(') {
-			if (str[i + 1] == ')') {
-				
-			}
+			if (isPopped) isPopped = false;
+			st.push(str[i]);
+			multiplier *= 2;
 		}
 		else if (str[i] == ')') {
 			if (!st.empty() && st.top() == '(') {
-
+				if (!isPopped)
+				{
+					sum += multiplier;
+					isPopped = true;
+				}
+				st.pop();
+				multiplier /= 2;
+			}
+			else {
+				flag = true;
+				break;
 			}
 		}
 		else if (str[i] == '[') {
+			if (isPopped) isPopped = false;
 			st.push(str[i]);
+			multiplier *= 3;
 		}
 		else if (str[i] == ']') {
 			if (!st.empty() && st.top() == '[') {
-
+				if (!isPopped)
+				{
+					sum += multiplier;
+					isPopped = true;
+				}
+				st.pop();
+				multiplier /= 3;
+			}
+			else {
+				flag = true;
+				break;
 			}
 		}
 	}
+
+	if (flag || !st.empty()) std::cout << 0;
+	else std::cout << sum;
 }
 
 
