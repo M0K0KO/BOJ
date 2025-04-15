@@ -14,7 +14,7 @@ void Solve() {
 	std::queue<int> q;
 	q.push(N);
 
-	while (dist[N] == -1) {
+	while (dist[K] == -1) {
 		int cur = q.front();
 		q.pop();
 		for (int nxt : {cur + 1, cur - 1, 2 * cur}) {
