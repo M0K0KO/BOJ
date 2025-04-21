@@ -273,6 +273,15 @@
     <ClCompile Include="7569.cpp">
       <Filter>소스 파일\BarkingDog\0x09</Filter>
     </ClCompile>
+    <ClCompile Include="7562.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
+    </ClCompile>
+    <ClCompile Include="5427.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
+    </ClCompile>
+    <ClCompile Include="2583.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
