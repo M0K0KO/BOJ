@@ -303,6 +303,9 @@
     <ClCompile Include="2573.cpp">
       <Filter>소스 파일\BarkingDog\0x09</Filter>
     </ClCompile>
+    <ClCompile Include="2146.cpp">
+      <Filter>소스 파일\BarkingDog\0x09</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
